@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    padding: 60px 10px;
+}
+.heading{
+    font-size: 1.8rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.description{
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 100px;
+}
+button{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 6px;
+    border-color: rgb(150, 150, 150);
+    box-shadow: inset 2px 2px 5px 2px rgb(150, 150, 150),inset -2px -2px 5px 2px rgb(150, 150, 150);
+}
+.help-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.help-box{
+    border: 2px solid rgb(179, 179, 179);
+    width: 460px;
+    height: 160px;
+    padding: 20px 22px;
+    line-height: 22px;
+    border-radius: 10px;
+}
+.help-box li{
+    color: rgb(104, 104, 104);
+
+}
+.help-heading{
+    font-family:monospace;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+@media(min-width:320px) and (max-width : 475px){
+    .help-box{
+        height: 180px;
+        font-size: .85rem;
+    }
+}
+
+@media(max-width : 320px){
+    .help-box{
+        height: 180px;
+        font-size: .7rem;
+        padding: 15px 8px;
+    }
+    .help-heading{
+        font-size: .75rem;
+    }
+}
